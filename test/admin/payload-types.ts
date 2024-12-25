@@ -340,34 +340,6 @@ export interface Geo {
   createdAt: string;
 }
 /**
- * Description
- *
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "customIdTab".
- */
-export interface CustomIdTab {
-  title?: string | null;
-  id: string;
-  description?: string | null;
-  number?: number | null;
-  updatedAt: string;
-  createdAt: string;
-}
-/**
- * Description
- *
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "customIdRow".
- */
-export interface CustomIdRow {
-  title?: string | null;
-  id: string;
-  description?: string | null;
-  number?: number | null;
-  updatedAt: string;
-  createdAt: string;
-}
-/**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "disable-duplicate".
  */

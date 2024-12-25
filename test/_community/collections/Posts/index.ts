@@ -12,6 +12,11 @@ export const PostsCollection: CollectionConfig = {
       name: 'title',
       type: 'text',
     },
+    {
+      name: 'transactionData',
+      required: true,
+      type: 'text',
+    },
   ],
   versions: {
     drafts: true,
